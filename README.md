@@ -16,12 +16,6 @@ This guide walks you through creating a scalable data pipeline in Azure, transfo
 3. Automate data pipelines with Azure Data Factory.
 4. Query and optimize data in Synapse Analytics for analytics and visualization.
 
-## **Estimated Time to Complete**
-- 2–4 hours, depending on familiarity with Azure services.
-
-## **Prerequisites**
-- Azure account (free trial available).
-- Basic understanding of data engineering concepts.
 
 ## **Technologies Used**
 - Azure Databricks
@@ -37,4 +31,4 @@ This guide walks you through creating a scalable data pipeline in Azure, transfo
 
 ---
 
-*For detailed steps, see the full guide.*
+
