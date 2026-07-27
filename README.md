@@ -18,12 +18,6 @@ This guide walks you through creating a scalable data pipeline in Azure, transfo
 - Azure Data Factory
 - Azure Synapse Analytics
 
-## **Guide Structure**
-
-1. [Setting Up the Environment](#setting-up-the-environment)
-2. [Processing Data with Databricks Notebooks](#processing-data-with-databricks-notebooks)
-3. [Creating an Azure Data Factory Pipeline](#creating-an-azure-data-factory-pipeline)
-4. [Exploring Data in Synapse Analytics](#exploring-data-in-synapse-analytics)
 
 ---
 
