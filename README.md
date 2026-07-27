@@ -1,19 +1,40 @@
-Earthquake Azure Data Engineering Pipeline: A Comprehensive Guide
-Overview and Architecture
-Business Case
-Earthquake data is incredibly valuable for understanding seismic events and mitigating risks. Government agencies, research institutions, and insurance companies rely on up-to-date information to plan emergency responses and assess risks. With this automated pipeline, we ensure these stakeholders get the latest data in a way that’s easy to understand and ready to use, saving time and improving decision-making.
+# Data Engineering Tutorial: From Raw Data to Azure Synapse Analytics
 
-Architecture Overview
-This pipeline follows a modular architecture, integrating Azure’s powerful data engineering tools to ensure scalability, reliability, and efficiency. The architecture includes:
+This guide walks you through creating a scalable data pipeline in Azure, transforming raw data into meaningful insights using Databricks, Azure Data Factory (ADF), and Synapse Analytics.
 
-Data Ingestion: Azure Data Factory orchestrates the daily ingestion of earthquake data from the USGS Earthquake API.
-Data Processing: Databricks processes raw data into structured formats (bronze, silver, gold tiers).
-Data Storage: Azure Data Lake Storage serves as the backbone for storing and managing data at different stages.
-Data Analysis: Synapse Analytics enables querying and aggregating data for reporting.
-Optional Visualization: Power BI can be used to create interactive dashboards for stakeholders.
-Data Modeling
-We implement a medallion architecture to structure and organize data effectively:
+![Data Engineering vs Software Engineering (6)](https://github.com/user-attachments/assets/bdadd2e0-89be-4683-b53b-fe331be6f6bf)
 
-Bronze Layer: Raw data ingested directly from the API, stored in Parquet format for future reprocessing if needed.
-Silver Layer: Cleaned and normalized data, removing duplicates and handling missing values, ensuring it’s ready for analytics.
-Gold Layer: Aggregated and enriched data tailored to specific business needs, such as adding in country codes.
+## **Who Should Use This Guide**
+
+- Beginner to Intermediate Data Engineers.
+- Those new to Azure who want hands-on experience with Databricks, ADF, and Synapse.
+
+## **What You’ll Learn**
+
+1. Configure Azure Databricks and securely access data in Azure Storage.
+2. Process and transform data using Databricks notebooks (`bronze`, `silver`, `gold`).
+3. Automate data pipelines with Azure Data Factory.
+4. Query and optimize data in Synapse Analytics for analytics and visualization.
+
+## **Estimated Time to Complete**
+- 2–4 hours, depending on familiarity with Azure services.
+
+## **Prerequisites**
+- Azure account (free trial available).
+- Basic understanding of data engineering concepts.
+
+## **Technologies Used**
+- Azure Databricks
+- Azure Data Factory
+- Azure Synapse Analytics
+
+## **Guide Structure**
+
+1. [Setting Up the Environment](#setting-up-the-environment)
+2. [Processing Data with Databricks Notebooks](#processing-data-with-databricks-notebooks)
+3. [Creating an Azure Data Factory Pipeline](#creating-an-azure-data-factory-pipeline)
+4. [Exploring Data in Synapse Analytics](#exploring-data-in-synapse-analytics)
+
+---
+
+*For detailed steps, see the full guide.*
